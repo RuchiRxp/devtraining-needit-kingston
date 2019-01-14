@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="RuchiTesting" max_length="40" name="x_58872_needit_ruchitesting" type="collection">
+        <element choice="3" label="Status" mandatory="true" max_length="50" name="status" type="choice">
+            <choice>
+                <element label="New" value="New-"/>
+                <element label="Open/Close" value="Open/Close"/>
+            </choice>
+        </element>
+    </element>
+</database>
